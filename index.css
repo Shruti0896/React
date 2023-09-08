@@ -24,6 +24,7 @@
 
 .res-img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .search {
@@ -32,9 +33,11 @@
 
 .res-card {
     box-sizing:border-box;
+    box-shadow: white;
     margin: 20px;
     padding: 5px;
     width: 200px;
+    height: 400px;
     border-radius: 5px;
     background-color: #f0f0f0;
 }
@@ -75,3 +78,15 @@
     background-color: #f0f0f0;
 }
 
+.btn {
+    width: 100px;
+    cursor: pointer;
+}
+
+.restaurant-menu {
+
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+}
